@@ -1,0 +1,77 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+   border: 1px solid black;
+   background-color: aqua;
+   height: 100%;
+   margin-left: 5px;
+   padding: 3px;
+   box-sizing: border-box;
+   position: relative;
+   
+}
+
+.chicken {
+    border: 2px solid white;
+    padding: 0px 50px;
+    position: absolute;
+    right: 0;
+    background-color: blue;
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+    
+}
+
+.beef {
+    border: 2px solid white;
+    padding: 0px 50px;
+    position: absolute;
+    right: 0;
+    background-color:chartreuse;
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+    
+}
+
+.sushi {
+    border: 2px solid white;
+    padding: 0px 50px;
+    position: absolute;
+    right: 0;
+    background-color:brown;
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+    
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+    }
+    .col-lg-4 {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
